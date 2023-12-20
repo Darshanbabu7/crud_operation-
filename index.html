@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="http://localhost:4000/api/user/adduser" method="POST" id="form">
+        <h1>SIGN UP</h1>
+        <label for="username">User Name :</label>
+        <input type="text" id="username" placeholder="username">
+
+        <label for="mail">EMail :</label>
+        <input type="email" id="mail" placeholder="email">
+
+        <label for="number">Mobile Number :</label>
+        <input type="number" id="number" placeholder="mobile number">
+
+        <label for="pass">Password :</label>
+        <input type="password" id="pass" placeholder="password">
+
+        <label for="age">Age :</label>
+        <input type="number" id="age" placeholder="age">
+
+        <button type="submit" id="btn">SIGN UP</button>
+    </form>
+
+    <script src="./index.js"></script>
+   
+</body>
+</html>
